@@ -50,18 +50,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-
-          <!-- Face swapping -->
-          <!-- Panorama stitching -->
-          <!-- Probability based edge detection -->
-          <!-- Kinematic planning under non-holonomic constraints -->
-          <!--  -->
-          <!-- Graph search algorithms -->
-          <!-- PID control of robot manipulator in ROS-->
-
-
-
-          <!-- Pose estimation of a mobile robot-->
+          <!-- GCP Detection in UAV images-->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -69,33 +58,29 @@
                 <source src="media/nerfbake_15.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div> -->
-                <img src='media/socnavassist.gif' width="160">
+                <img src='media/gcp.gif' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Pose estimation of a mobile robot</papertitle>
+              <papertitle>Standardization of the Shape of Ground Control Point (GCP) and the Methodology for Its Detection in Images for UAV-Based Mapping Applications</papertitle>
               <br>
-              <!-- <a href="https://phogzone.com/">Peter Hedman</a>,
-              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://www.pauldebevec.com/">Paul Debevec</a>
+              <a href="https://www.linkedin.com/in/aman-jain-16aj/">Aman Jain</a>,
+              <a href="https://www.linkedin.com/in/milind-mahajan/">Milind Mahajan</a>,
+              <strong>Radha Saraf</strong>,
               <br>
-              <em>arXiv</em>, 2021 
-              <br> -->
+              <em>Springer</em>, 2019
+              <br>
               <!-- <a href="http://nerf.live">project page</a> -->
               <!-- / -->
-              <!-- <a href="https://arxiv.org/abs/2103.14645">arXiv</a> -->
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-17795-9_34">arXiv</a>
               <!-- / -->
               <!-- <a href="https://kenembanisi.github.io/">arXiv</a>
               / -->
               <!-- <a href="https://kenembanisi.github.io/">project page</a> -->
-              <p><em>(Ongoing Project)</em></p>
-              <p></p>
-              <p>Defining human-compatible social navigation constraints is complex. We leverage data-driven approach to learn the task constraints from expert (human) demonstrations.</p>
+              <p>To establish accurate georeferencing techniques for aerial images from UAVs for an accurate earth to orthomap correspondence, we propose the design of a simple marker along with the pipeline for its detection</p>
             </td>
 
-          <!-- Shared autonomy for social robot navigation  -->
+          <!-- Panorama stitching -->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -107,7 +92,7 @@
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Shared Autonomy for Socially-Aware Robot Navigation</papertitle>
+              <papertitle>Panorama stitching for two or more images</papertitle>
               <br>
               <!-- <a href="https://phogzone.com/">Peter Hedman</a>,
               <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
@@ -116,6 +101,68 @@
               <a href="https://www.pauldebevec.com/">Paul Debevec</a>
               <br>
               <em>arXiv</em>, 2021 
+              <br> -->
+              <a href="https://github.com/radhasaraf/rbe549-my-auto-pano">project page</a>
+              <!-- / -->
+              <!-- <a href="https://arxiv.org/abs/2103.14645">arXiv</a> -->
+              <!-- / -->
+              <!-- <a href="https://kenembanisi.github.io/">arXiv</a>
+              / -->
+              <!-- <a href="https://kenembanisi.github.io/">project page</a> -->
+              <p>Estimated homography between image pairs using feature correspondences. Used Adaptive non-maximal suppression for uniform features and RANSAC for
+                for removing the outliers among the feature matches.
+                Also, trained HomographyNet, a CNN based supervised learning architecture for homography estimation using synthetically generated data.
+              </p>
+              <p>Collaborative work with Sai Ramana Kiran Pinnamaraju</p>
+            </td>
+
+
+          <!-- Probability based edge detection-->
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="media/nerfbake_15.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='media/learning2.gif' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Probability based edge detection</papertitle>
+
+               <a href="https://github.com/radhasaraf/rbe549-alohamora">project page</a>
+              <!-- / -->
+              <!-- <a href="https://users.wpi.edu/~zli11/papers/C2018_IROS_Mbanisi_DriverMotionPrimitive.pdf">arXiv</a>
+              / -->
+<!--              <a href="https://www.youtube.com/watch?v=LElY1ISa9uk">video</a>-->
+              <!-- /
+              <a href="https://kenembanisi.github.io/">code</a> -->
+              <p>Developed a simplified version of pb, which finds boundaries by examining texture and color discontinuities in addition to intensity discontinuities across multiple scales.</p>
+              <p>Outperforms Canny and Sobel by suppressing the false positives produced by classical methods in textured regions.</p>
+            </td>
+
+          <!-- Pose estimation of a mobile robot-->
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="media/nerfbake_15.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='media/pose_estm.gif' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Pose estimation of a mobile robot</papertitle>
+              <br>
+              <!-- <a href="https://phogzone.com/">Peter Hedman</a>,
+              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+              <strong>Jonathan T. Barron</strong>,
+              <a href="https://www.pauldebevec.com/">Paul Debevec</a>
+              <br>
+              <em>arXiv</em>, 2021
               <br> -->
               <!-- <a href="http://nerf.live">project page</a> -->
               <!-- / -->
@@ -124,12 +171,11 @@
               <!-- <a href="https://kenembanisi.github.io/">arXiv</a>
               / -->
               <!-- <a href="https://kenembanisi.github.io/">project page</a> -->
-              <p></p>
-              <p>Enabling safe and intuitive assistive navigation of telepresence robots using haptic feedback and reciprocal velocity obstacles (RVO)</p>
+              <p>Estimated pose of an autonomous mobile robot using differential-RGB color-space, image processing, and
+the 'SolvePnP' (Perspective-n-point) algorithm from the OpenCV library with an accuracy of +/-5 cms</p>
             </td>
 
-
-          <!-- MP learning publication 2 -->
+          <!-- Kinematic planning under non-holonomic constraints-->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -137,45 +183,11 @@
                 <source src="media/nerfbake_15.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div> -->
-                <img src='media/mp_learning2.gif' width="160">
+                <img src='media/valet.gif' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Learning Natural Driver Control Motion Primitives for Computational Human Driver Modeling</papertitle>
-              <br>
-              <em>Kenechukwu C. Mbanisi</em>,  
-              <a href="https://www.linkedin.com/in/hide-kimpara/">Hideyuki Kimpara</a>,
-              <a href="https://web.cs.wpi.edu/~michaelg/">Michael A. Gennert</a>,
-              <a href="http://labs.wpi.edu/hiro/zhi-jane-li/">Zhi Li</a>
-              <br>
-              <!-- <em>arXiv</em>, 2021  -->
-              <em>In internal review</em>
-              <br>
-              <!-- <a href="http://nerf.live">project page</a> -->
-              <!-- / -->
-              <!-- <a href="https://users.wpi.edu/~zli11/papers/C2018_IROS_Mbanisi_DriverMotionPrimitive.pdf">arXiv</a>
-              / -->
-              <a href="https://www.youtube.com/watch?v=LElY1ISa9uk">video</a>
-              <!-- /
-              <a href="https://kenembanisi.github.io/">code</a> -->
-              <p></p>
-              <p>Novel application of imitation learning algorithms to model natural driver control behavior from human demonstration</p>
-            </td>
-
-          
-          <!-- RoboNav -->
-          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="media/nerfbake_15.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div> -->
-                <img src='media/robonav2.gif' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>RoboNav: Mapless Indoor Navigation using Deep Reinforcement Learning</papertitle>
+              <papertitle>Kinematic planning under non-holonomic constraints</papertitle>
               <br>
               <!-- <a href="https://phogzone.com/">Peter Hedman</a>,
               <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
@@ -189,50 +201,9 @@
               <!-- / -->
               <!-- <a href="https://arxiv.org/abs/2103.14645">arXiv</a> -->
               <!-- / -->
-              <a href="https://docs.google.com/presentation/d/1A6RJ-Lwd6sobZYWkM8gACb9-oAHzP6MlmDPccWTx9v8/edit?usp=sharing">slides</a>
-              /
-              <a href="https://github.com/kenembanisi/RoboNav">project page</a>
-              <p></p>
-              <p>Applied end-to-end learning approach for dynamic collision avoidance of an autonomous mobile robot using Deep Q-Learning and DDPG algorithms.</p>
-              <p>Collaborative work with Abhishek Jain, Kavit Nilesh Shah and Sanjeev Kannan</p>
+              <a href="https://github.com/radhasaraf/rbe550-valet">project page</a>
+              <p>Developed a kinematic path planner with nonholonomic constraints to efficiently park vehicles ranging from a differential drive bot to a car to a truck with a trailer.</p>
             </td>
-
-
-          <!-- HuMADS publication -->
-          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="media/nerfbake_15.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div> -->
-                <img src='media/humads.png' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Human Model-Based Active Driving System in Vehicular Dynamic Simulation</papertitle>
-              <br>
-              <a href="https://www.linkedin.com/in/hide-kimpara/">Hideyuki Kimpara</a>,
-              <em>Kenechukwu C. Mbanisi</em>,           
-              <a href="https://sites.google.com/site/dvprokhorov/">Danil Prokhorov</a>,
-              <a href="https://users.wpi.edu/~jfu2/">Jie Fu</a>,
-              <a href="http://labs.wpi.edu/hiro/zhi-jane-li/">Zhi Li</a>,
-              <a href="https://web.cs.wpi.edu/~michaelg/">Michael A. Gennert</a>
-              <br>
-              <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2020 
-              <br>
-              <!-- <a href="http://nerf.live">project page</a> -->
-              <!-- / -->
-              <a href="https://users.wpi.edu/~zli11/papers/J2019_Mbanisi_Human.pdf">paper</a>
-              <!-- /
-              <a href="https://kenembanisi.github.io/">video</a> -->
-              <!-- /
-              <a href="https://kenembanisi.github.io/">code</a> -->
-              <p></p>
-              <p>Proposed a novel model-based active driver simulation framework for investigating human-vehicle interaction in semi- and fully-autonomous vehicles</p>
-            </td>
-
-
           
           <!-- Force anticipation publication -->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
@@ -280,9 +251,8 @@
                 load-pushing study with diverse combinations of informed and actual loading weights.</p>
             </td>
 
-
           
-          <!-- Surgical robot project -->
+          <!-- Graph search algorithms -->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -290,11 +260,11 @@
                 <source src="media/nerfbake_15.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div> -->
-                <img src='media/surgical.gif' width="160">
+                <img src='media/a-star.gif' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Surgical Robotics using an Industrial Manipulator Robot</papertitle>
+              <papertitle>Graph search algorithms: BFS, DFS, Dijkstra's, A-star</papertitle>
               <br>
               <a href="https://www.youtube.com/watch?v=EwtT7nBfjyI">video</a>
               /
@@ -306,8 +276,34 @@
                 Also, we developed software packages consisting of kinematics, trajectory generation and teleoperation functionality.</p>
               <p>Collaborative work with Yan Wang, Yuqi Jiang, Tianyu Cheng, and Abhijeet Thakan</p>
             </td>
-          
-          
+
+
+          <!-- PID Control of robot manipulator in ROS -->
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="media/nerfbake_15.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='media/a-star.gif' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>PID Control of robot manipulator in ROS</papertitle>
+              <br>
+              <a href="https://www.youtube.com/watch?v=EwtT7nBfjyI">video</a>
+              /
+              <a href="https://github.com/kenembanisi/surgical_industrial_arm">code</a>
+              /
+              <a href="https://github.com/kenembanisi/surgical_industrial_arm/blob/master/doc/final_report.pdf">report</a>
+              <p></p>
+              <p>We developed a mechanism to enable mounting a da Vinci Research Kit insertion tool on an ABB Industrial robot.
+                Also, we developed software packages consisting of kinematics, trajectory generation and teleoperation functionality.</p>
+              <p>Collaborative work with Saurabh Kashid</p>
+            </td>
+
+
           <!-- MP learning 1 publication -->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -350,40 +346,6 @@
               <p></p>
               <p>We propose an integrated human-vehicle interaction simulation framework which learns vehicle 
                 maneuver motion primitives from human drivers, and uses them to compose natural and contextual driving motions.</p>
-            </td>
-
-
-          <!-- Fatigue -->
-          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="media/nerfbake_15.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div> -->
-                <img src='media/fatigue.png' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Assessment of Physical Fatigue in Robot Teleoperation during Complex
-                Motion Coordination Tasks</papertitle>
-              <br>
-              <em>Kenechukwu C. Mbanisi</em>,
-              <a href="https://www.linkedin.com/in/alexandravaliton/"> Alexandra R. Valiton</a>,
-              <a href="https://www.linkedin.com/in/renee-dorer-1044ba167/">Renee K. Dorer</a>,
-              <a href="http://labs.wpi.edu/hiro/zhi-jane-li/">Zhi Li</a>
-              <br>
-              Poster presentation at <a href="https://sites.google.com/site/humansafetyandcomfortiros2018/accepted-papers"><em>IROS 2018 Workshop on Robotic Co-Workers 4.0</em></a>
-              <br>
-              <!-- <a href="http://nerf.live">project page</a> -->
-              <!-- / -->
-              <a href="https://users.wpi.edu/~zli11/papers/W2018_IROS_Mbanisi_PhysicalFatigue.pdf">paper</a>
-              <!-- /
-              <a href="https://kenembanisi.github.io/">video</a> -->
-              <!-- /
-              <a href="https://kenembanisi.github.io/">code</a> -->
-              <p></p>
-              <p> We proposed a study to evaluate teleoperation interfaces in the performance of complex motion coordination tasks on the basis of operator physical fatigue.</p>
             </td>
 
 
@@ -439,7 +401,7 @@
             </div>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://parcrobotics.org/"><papertitle>Girls Talk Math (GTM)</papertitle>
+            <a href="https://girlstalkmath.co"><papertitle>Girls Talk Math (GTM)</papertitle>
             </a>
             <p>Supervised and mentored high school girls throughout a 2-week, math, day-camp that explored mathematical concepts in RSA Cryptography.
             </p>
@@ -453,7 +415,7 @@
             </div>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://arminstitute.org/projects/cobots-for-kids/"><papertitle> Linear Algebra for computer vision </papertitle>
+            <papertitle> Linear Algebra for computer vision </papertitle>
             </a>
             <p>As a undergrad. senior, I taught linear algebra to sophomores as part of the mentorship program at the robotics lab.</p>
             </p>
